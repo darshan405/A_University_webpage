@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>contact</title>
+		<link type="text/css" rel="stylesheet" href="cntt.css"/>
+	</head>
+	<body>
+		<h1><img src="VTU-Results-2018.png" width="900px" height="100px"><br/></h1>
+		<hr/>
+		<div id="menu">
+			<ul>
+				<li><a href="index3_main.html">HOME</a>
+				</li>
+				<li><a href="homepg.html">ABOUT VTU</a>
+				</li>
+				<li><a href="phts.html">PHOTOS</a></li>
+				<li><a href="cnt.html">CONTACT</a></li>
+			</ul>
+		</div>
+		<br><br><br>
+			<center><p>Please login to see contact details</p></center>
+			<form name="login">
+				<div class="login">
+					<input type="text" placeholder="username" name="userid"><br/>
+					<input type="password" placeholder="password" name="pswrd"><br/>
+					<input type="button" onclick="check(this.form)"value="login"/>
+				</div>
+			</form>
+			<script language="javascript">
+						function check(form)
+						{
+						if(form.userid.value=="darshan" && form.pswrd.value == "qwerty")
+						{
+						window.open('contct.html')
+						}
+						else
+						{
+						alert("the username and password you entered is wrong")
+						}
+						}
+			</script>
+	</body>
+</html>
